@@ -227,6 +227,20 @@ html{
     width:154px;
     border-radius: 4px;
 }
+.member-scale img{
+    -webkit-transform: scale(1.0);
+       -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+         -o-transform: scale(1.0);
+            transform: scale(1.0);
+  }
+.member-scale img:hover{
+    -webkit-transform: scale(1.3);
+       -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+         -o-transform: scale(1.3);
+            transform: scale(1.3);
+  }
 
 .tour-section{
     background-color:#2f7e73;
@@ -472,7 +486,8 @@ html{
 .socials-list a{
     font-size: 24px;
     text-decoration: none;
-    color:rgb(148, 144, 144);
+    color:rgb(27, 88, 34);
+    padding: 0 10px;
 }
 .copy-write{
     font-size: 15px;
